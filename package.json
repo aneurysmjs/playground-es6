@@ -1,0 +1,29 @@
+{
+  "name": "playground-es6",
+  "version": "0.0.0",
+  "description": "pieces of code about es6 features and how to properly use them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackendstudios/playground-es6.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "ES6",
+    "ECMAScript",
+    "js"
+  ],
+  "author": "blackend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackendstudios/playground-es6/issues"
+  },
+  "homepage": "https://github.com/blackendstudios/playground-es6#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
