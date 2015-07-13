@@ -1,24 +1,13 @@
-'use strict';
+"use strict";
 
-function _defineProperty(obj, key, value) {
-   if (key in obj) {
-      Object.defineProperty(obj, key, {
-         value: value,
-         enumerable: true,
-         configurable: true,
-         writable: true
-      });
-   } else {
-      obj[key] = value;
-   }
-   return obj;
-}
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var name = 'angular',
-   version = 2;
+var name = "angular",
+    version = 2,
+    map = "func";
 
 function tool() {
-   console.log('tooling');
+   console.log("tooling");
 }
 
 var framework = _defineProperty({
@@ -27,11 +16,11 @@ var framework = _defineProperty({
    tool: tool,
    track: function track() {
       // you can declare a function inside an object
-      console.log('track');
+      console.log("track");
    }
-}, 'func', function func() {
+}, map, function () {
    // same as framework['func'] = function(){}
-   console.log('func');
+   console.log("func");
 });
 
 framework.tool();

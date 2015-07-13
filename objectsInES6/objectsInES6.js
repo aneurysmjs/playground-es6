@@ -1,7 +1,8 @@
 'use strict';
 
 var name = "angular",
-    version = 2;
+    version = 2,
+    map = "func";
 
 function tool() {
    console.log('tooling');
@@ -15,7 +16,7 @@ var framework = {
    // you can declare a function inside an object
       console.log('track');
    },
-   ["func"]: function() {
+   [map]: function() {
       // same as framework['func'] = function(){}
       console.log('func');
    }
