@@ -11,14 +11,14 @@ var framework = {
    name, //match the names of the variables
    version,
    tool,
-   track() {
-   // you can declare a function inside an object
+   track() {// valid syntax to declare a function inside an object
       console.log('track');
-   },
+   }/*,
+   // subscript notation not working
    func() {
       // same as framework['func'] = function(){}
       console.log('func');
-   }
+   }*/
 };
 
 framework.tool();
