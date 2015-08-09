@@ -1,3 +1,4 @@
+'use strict';
 // allows you to take an array and spread it out into its individual items
 
 console.log([1,2,3]);
