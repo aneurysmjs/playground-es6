@@ -5,7 +5,7 @@ import babel from 'gulp-babel';
 import rename from 'gulp-rename';
 import sourcemaps from 'gulp-sourcemaps';
 
-gulp.task("default", (o) => {
+gulp.task("default", () => {
 
   /* return gulp.src("src/!**!/!*.js")
       .pipe(babel())
