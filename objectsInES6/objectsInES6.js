@@ -1,24 +1,19 @@
 'use strict';
 
-var name = "angular",
-    version = 2;
+let name = "angular",
+    version = 2,
+    invoke = 'tool';
 
-function tool() {
-   console.log('tooling');
-}
 
 var framework = {
    name, //match the names of the variables
    version,
-   tool,
+   [invoke]: () => { // same as framework['tool'] = function(){}
+      console.log('--- jentoo love tooling ---');
+   },
    track() {// valid syntax to declare a function inside an object
       console.log('track');
-   }/*,
-   // subscript notation not working
-   func() {
-      // same as framework['func'] = function(){}
-      console.log('func');
-   }*/
+   }
 };
 
 framework.tool();
