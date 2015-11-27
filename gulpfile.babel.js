@@ -7,9 +7,6 @@ import sourcemaps from 'gulp-sourcemaps';
 
 gulp.task("default", (o) => {
 
-   console.log('--- o ---');
-   console.dir(this);
-
   /* return gulp.src("src/!**!/!*.js")
       .pipe(babel())
       .pipe(gulp.dest("dist"));*/

@@ -1,3 +1,4 @@
+'use strict';
 // this syntax allows you to easily construct objects
 
 let name = "jero";
