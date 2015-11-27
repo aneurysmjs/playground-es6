@@ -14,6 +14,7 @@
     "javascript",
     "es6",
     "ES6",
+    "ES2015",
     "ECMAScript",
     "js"
   ],
@@ -23,7 +24,11 @@
     "url": "https://github.com/blackendstudios/playground-es6/issues"
   },
   "homepage": "https://github.com/blackendstudios/playground-es6#readme",
-  "dependencies": {
-    "grunt": "^0.4.5"
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0"
   }
 }
