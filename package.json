@@ -25,11 +25,13 @@
   },
   "homepage": "https://github.com/blackendstudios/playground-es6#readme",
   "devDependencies": {
-    "babel": "^6.1.18",
-    "babel-preset-es2015": "^6.1.18",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^1.6.0"
+    "babel": "6.1.18",
+    "babel-preset-es2015": "6.1.18",
+    "gulp": "3.9.0",
+    "gulp-babel": "6.1.1",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "1.6.0",
+    "http-server": "0.9.0",
+    "nodemon": "1.9.2"
   }
 }
